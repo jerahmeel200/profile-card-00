@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5af19, #f12711);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.card {
+    background: white;
+    padding: 17px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f12711;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #f5af19;
+}
+.time {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
+.bio{
+    font-weight: 500;
+}
+
+.location {
+    font-weight: 500;
+     
+}
+.email{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 80%;
+        padding: 15px;
+    }
+    .social-links a {
+        font-size: 14px;
+        margin: 0 8px;
+    }
+    .time {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 90%;
+        padding: 10px;
+    }
+    .social-links a {
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    .time {
+        font-size: 10px;
+    }
+}
