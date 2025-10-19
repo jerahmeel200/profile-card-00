@@ -1,26 +1,45 @@
 # Profile Card
 
-This is a simple and responsive profile card built using HTML and CSS. The card displays profile information like the user's name, job title, short bio, location, email address, and social media links. The design is mobile-friendly, adapting to different screen sizes using CSS media queries.
+This project showcases a profile card created using HTML, CSS, and Vanilla JavaScript. It provides a clean, user-friendly layout for displaying user information, such as name, profile picture, bio, and social media links. The card is fully responsive, ensuring it looks great on different screen sizes.
 
-## Features
+## Features:
 
-- **Responsive Design:** The card adjusts its layout based on screen size, ensuring a great user experience on mobile, tablet, and desktop.
-- **Social Links:** The card includes links to social profiles such as LinkedIn, GitHub, and Twitter.
-- **Current UTC Time:** The card displays the current UTC time, which updates dynamically.
-- **Hover Effect:** The card slightly scales up on hover to add an interactive touch.
+- Simple and clean layout
+- Display of name, profile picture, and bio
+- Social media links
+- Fully responsive design
+- Interactive hover effects for an enhanced user experience
 
-## Demo
+## Technologies Used:
 
-You can see the live demo of the profile card [here](https://profile-card-mu-five.vercel.app/).
+- **HTML**: Structure of the profile card.
+- **CSS**: Styling and layout, including responsiveness.
+- **JavaScript**: Adding interactivity (e.g., updating the time).
 
-## Screenshots
+## Live Demo:
 
-![Profile Card Screenshot](screenshot.png)
+You can view the live version of the profile card [https://profile-card-i13.netlify.app/].
 
-## Installation
-
-To run this project locally, follow these steps:
+## How to Use:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jerahmeel200/profile-card.git
+   git clone https://github.com/<your-username>/hng13-stage-0-profile-card.git
+   ````
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd hng13-stage-0-profile-card
+   ```
+
+3. Open the `index.html` file in your browser:
+
+   * Double-click the file, or
+   * Use a local server:
+
+     **Using VS Code Live Server:**
+
+     * Install the “Live Server” extension in VS Code.
+     * Right-click `index.html` → “Open with Live Server”.
+
